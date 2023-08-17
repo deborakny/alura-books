@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.container__botao {
+    display: none;
+}
+
 .container__botao:checked~.lista-menu {
     display: block;
 }
@@ -31,7 +35,27 @@
 .lista-menu {
     display: none;
     position: absolute;
-    top: 100%; 
+    top: 100%;
+    width: 60vw;
 }
+
+.lista-menu__titulo {
+    color: var(--cor-lista-menu-titulo);
+    font-weight: 700;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1rem;
+    background-color: var(--segunda-cor-de-fundo);
+}
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
 
 
