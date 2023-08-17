@@ -1,0 +1,37 @@
+.cabecalho {
+    background-color: var(--segunda-cor-de-fundo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;  
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.cabecalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url(../assets/Menu.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container__imagem {
+    padding: 1rem;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+
