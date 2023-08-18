@@ -1,5 +1,5 @@
 .cabecalho {
-    background-color: var(--segunda-cor-de-fundo);
+    background-color: var(--cor-secundaria);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,13 +40,13 @@
 }
 
 .lista-menu__titulo {
-    color: var(--cor-lista-menu-titulo);
+    color: var(--cor-titulo);
     font-weight: 700;
 }
 
 .lista-menu__titulo, .lista-menu__item {
     padding: 1rem;
-    background-color: var(--segunda-cor-de-fundo);
+    background-color: var(--cor-secundaria);
 }
 
 .lista-menu__link {
