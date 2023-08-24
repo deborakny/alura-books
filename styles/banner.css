@@ -33,3 +33,13 @@
     background: url("/assets/Lupa.svg");
     background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 768px){
+    .banner__titulo {
+        font-size: 2.25rem;
+    }
+    
+    .banner__busca {
+        width: 70%;
+    }
+}
