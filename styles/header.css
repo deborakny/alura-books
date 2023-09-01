@@ -143,6 +143,7 @@
 
     .container__texto {
         display: block;
+        color: var(--cor-preta);
     }
 
     .opcoes {
